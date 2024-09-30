@@ -1,0 +1,54 @@
+.movie-card {
+  background: #141414; /* Dark background for Netflix theme */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s; /* Smooth scale transition */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 220px; /* Width of the card */
+  margin: 10px; /* Space between cards */
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.movie-poster {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.movie-info {
+  padding: 10px;
+}
+
+.movie-title {
+  font-size: 1.2rem; /* Title size */
+  color: #fff; /* Title color */
+  margin: 0;
+}
+
+.movie-description {
+  color: #b3b3b3; /* Description color */
+  font-size: 0.9rem; /* Description size */
+  height: 40px; /* Fixed height for description */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Ellipsis for overflow */
+  display: -webkit-box; /* For ellipsis */
+  -webkit-line-clamp: 2; /* Limit lines to 2 */
+  -webkit-box-orient: vertical; /* Box orientation */
+}
+
+.watch-button {
+  background-color: #e50914; /* Netflix red */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Round corners */
+  padding: 8px 12px; /* Padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Button font size */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.watch-button:hover {
+  background-color: #f40612; /* Darker red on hover */
+}

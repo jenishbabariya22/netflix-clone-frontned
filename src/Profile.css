@@ -1,0 +1,28 @@
+* {
+  pointer-events: none;
+  user-select: none;
+}
+
+.profile-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-poster {
+  margin-top: 20px;
+}
+
+.movie-poster img {
+  max-width: 200px; /* Set the width of the poster */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movie-poster h3 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.movie-poster p {
+  color: #666;
+}
