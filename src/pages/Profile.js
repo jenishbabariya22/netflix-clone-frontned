@@ -16,7 +16,7 @@ const Profile = () => {
       }
 
       try {
-        const res = await axios.get(`${process.env.REACT_API_BASE_URL}/api/auth/profile`, {
+        const res = await axios.get(`${process.env.REACT_APP_API_BASE_URL}/api/auth/profile`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         setUser(res.data);
