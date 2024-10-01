@@ -17,7 +17,7 @@ const Register = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`${process.env.API_BASE_URL}/api/auth/register`, formData);
+      const res = await axios.post(`${process.env.REACT_API_BASE_URL}/api/auth/register`, formData);
       console.log(res.data);
       navigate('/login');
     } catch (err) {
